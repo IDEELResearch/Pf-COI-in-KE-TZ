@@ -1,0 +1,71 @@
+Data dictionary ---------------------------------------------------------
+
+Topazian HM, Moser KA, Ngasala B, Oluoch PO, Forconi CS, Mhamilawa LE, 
+Aydemir O, Kharabora O, Deutsch-Feldman M, Read AF, Denton M, Lorenzo A, 
+Mideo N, Ogutu B, Moormann AM, Mårtensson A, Odwar B, Bailey JA, Akala H, 
+Ong’echa JM, Juliano JJ. Low complexity of infection is associated with 
+molecular persistence of Plasmodium falciparum in Kenya and Tanzania. 
+Frontiers in Epidemiology. 2022.
+
+
+participant_data.rds ----------------------------------------------------
+"subject_id": participant ID
+"new_id": alternative participant ID
+"age_months": age in months
+"age_yrs": age in years
+"gender": gender
+"water_yn": water within a 2 min walk from the house
+"mosquito_nets": household has mosquito nets
+"mosquitonets_num": number of mosquito nets in household
+"antimalarial_yn": antimalarial use in the last 28 days
+"Floor.Material": floor material, housing
+"Wall.Material": wall material, housing
+"Window.Material": window material, housing
+"Roof.Material": roof material, housing
+"app.electricity": does the house have electricity
+"app.oven": does the house have an oven
+"app.ne.or.more.hoes": does the house have one or more hoes
+"app.ewing.machine": does the house have a sewing machine
+"app.oilet": does the house have a toilet
+"app.radio": does the house have a radio
+"app.tv": does the house have a TV
+"app.efigerator": does the house have a refrigerator
+"app.gas.electric.stove": does the house have a gas or electric stove
+"app.generator": does the house have a generator
+"app.one.or.more.beds": does the house have one or more beds
+"app.one.or.more.lamps": does the house have one or more lamps
+"wealthscore": wealth score
+"wealth_cat": wealth category
+"TP0_COI": complexity of infection at time 0
+"total_COI": overall completexity of infection across study period
+"TP0_eveness": complexity of infection eveness at time 0
+"country": country
+"corrected.value.AMA1": participant AMA1 antibody level
+"corrected.value.MSP1": participant MSP1 antibody level
+"drugconc": drug concentration (lumefantrine) at day 7
+"resistance": Pfmdr1 genotyping result
+"HbE": HbE
+"HbS": HbS
+"HbC": HbC
+"CD36_T1264G": CD36 T1264G
+"G6PD_med": G6PD Mediterranean
+"G6PD _376": G6PD + 376 point mutation
+"G6PD_202": G6PD + 202 point mutation
+"group_0_FS": blood group O
+"duffy": duffy antigen
+
+
+parasitemia.rds ---------------------------------------------------------
+"subject_id": participant ID
+"Timepoint": time point (hours)
+"Calculated.Concentration": parasitemia (parasites / uL)
+"Site": country
+
+
+haplotype.rds -----------------------------------------------------------
+"X.PopUID": haplotype ID
+"ID": participant ID
+"time": time point (hours)
+"pct": percent of the selected idividual's total number of haplotypes
+
+
